@@ -13,6 +13,11 @@ public class ClaseFlotantes {
         System.out.println("Valor maximo douuble: " + Double.MAX_VALUE);
         System.out.println();
 
-        float floatVar = 0.5f;
+        float floatVar = 1.0f;
+        double doubleVar = 1.0D;
+
+        var floatVar2 = 10.0F;
+        var doubleVar2 = 10.15D;
+
     }
 }
