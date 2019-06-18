@@ -12,5 +12,7 @@ public class ClaseFlotantes {
         System.out.println("Valor minimo douuble: " + Double.MIN_VALUE);
         System.out.println("Valor maximo douuble: " + Double.MAX_VALUE);
         System.out.println();
+
+        float floatVar = 0.5f;
     }
 }
