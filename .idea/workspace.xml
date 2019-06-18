@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2a1c74e-354b-4875-ad94-06d0f60b0e96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TiposPrimitivos/ClaseConversionDeTipos.java" afterDir="false" />
+    <list default="true" id="f2a1c74e-354b-4875-ad94-06d0f60b0e96" name="Default Changelist" comment="Nueva Clase: Examen">
+      <change afterPath="$PROJECT_DIR$/src/Examen/Examen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -53,11 +53,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TiposPrimitivos/ClaseConversionDeTipos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+            <state relative-caret-position="60">
+              <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Examen/Examen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,14 +110,14 @@
         <option value="$PROJECT_DIR$/src/TiposPrimitivos/ClaseCharacters.java" />
         <option value="$PROJECT_DIR$/src/TiposPrimitivos/ClaseBoolean.java" />
         <option value="$PROJECT_DIR$/src/TiposPrimitivos/ClaseConversionDeTipos.java" />
+        <option value="$PROJECT_DIR$/src/Examen/Examen.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="771" />
-    <option name="y" value="18" />
-    <option name="width" value="649" />
-    <option name="height" value="736" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="583" />
+    <option name="width" value="785" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -124,6 +136,12 @@
               <item name="Sec4" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sec4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sec4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sec4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Examen" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Sec4" type="b2602c69:ProjectViewProjectNode" />
@@ -157,7 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClaseConversionDeTipos">
+  <component name="RunManager" selected="Application.Examen">
     <configuration name="ClaseBoolean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TiposPrimitivos.ClaseBoolean" />
       <module name="Seccion_4" />
@@ -210,12 +228,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClaseFlotantes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TiposPrimitivos.ClaseFlotantes" />
+    <configuration name="Examen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Examen.Examen" />
       <module name="Seccion_4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TiposPrimitivos.*" />
+          <option name="PATTERN" value="Examen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Examen" />
         <item itemvalue="Application.ClaseConversionDeTipos" />
         <item itemvalue="Application.ClaseBoolean" />
         <item itemvalue="Application.ClaseCharacters" />
         <item itemvalue="Application.ClaseEnteros" />
-        <item itemvalue="Application.ClaseFlotantes" />
       </list>
     </recent_temporary>
   </component>
@@ -265,13 +283,21 @@
       <option name="project" value="LOCAL" />
       <updated>1560828063850</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Nueva Clase: ClaseConversionDeTipos">
+      <created>1560830653276</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560830653276</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="583" y="0" width="785" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10514372" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19172414" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -280,15 +306,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.32242227" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49793103" weight="0.32225913" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.3927987" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5015129" side_tool="true" visible="true" weight="0.32242227" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50206894" side_tool="true" weight="0.30076337" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49848714" weight="0.3289689" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49848714" weight="0.32569557" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.49848714" visible="true" weight="0.3255814" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -303,7 +329,9 @@
     <MESSAGE value="wololo" />
     <MESSAGE value="Nuevo Codigo" />
     <MESSAGE value="Nueva Clase: ClaseBoolean" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nueva Clase: ClaseBoolean" />
+    <MESSAGE value="Nueva Clase: ClaseConversionDeTipos" />
+    <MESSAGE value="Nueva Clase: Examen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nueva Clase: Examen" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Seccion_4.iml">
@@ -346,8 +374,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TiposPrimitivos/ClaseConversionDeTipos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        <state relative-caret-position="60">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Examen/Examen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
